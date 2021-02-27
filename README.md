@@ -17,4 +17,6 @@ Normal deploy to S3 using latest.
     hugo deploy
 
 Force if caching is preventing Hugo from pushing to S3.
+
     hugo deploy --verbose --force
+    
