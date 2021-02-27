@@ -10,6 +10,7 @@ jobs:
   build:
     
     runs-on: ubuntu-latest
+    environment: awurster.com
 
     steps:
       - name: Check out main
