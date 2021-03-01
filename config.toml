@@ -7,7 +7,7 @@ hasCJKLanguage = true
 
 
 [params]
-    author = "awurster"
+    author = "@awurster"
     avatar = "portrait.jpg"
     favicon = "favicon.ico"
     description = """
