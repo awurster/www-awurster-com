@@ -14,7 +14,9 @@ jobs:
     steps:
       - name: Check out main
         uses: actions/checkout@main
-
+          with:
+            submodules: recursive
+            
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
