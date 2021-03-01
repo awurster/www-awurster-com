@@ -1,32 +1,59 @@
-baseURL = "http://awurster.com/"
+baseURL = "https://awurster.com/"
 languageCode = "en-us"
 title = "awurster[.]com"
 theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
 
-[Author]
-    name = "Andrew"
 
 [params]
+    author = "awurster"
+    avatar = "portrait.jpg"
+    favicon = "favicon.ico"
+    description = """
+        Welcome.
+        Thanks for dropping by.
+    """
+
     [params.colors]
         background = "#383838"
         foreground = "#dedede"
         hover = "#ffffff"
 
-    [[params.links]]
-        icon = "github"
-        title = "Github"
-        url = "https://github.com/awurster"
+[outputs]
+    section = ["JSON", "HTML"]
+    term = ["JSON", "HTML"]
 
-    [[params.links]]
-        icon = "linkedin"
-        title = "Linkedin"
-        url = "https://www.linkedin.com/in/andrew-w-46814818/"
+[[menu.main]]
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/yourciscokid"
+    weight = 10
 
-    [[params.links]]
-        iconset = "fas"
-        icon = "envelope"
-        title = "E-mail"
-        url = "mailto:contact@awurster.com"
+[[menu.main]]
+    identifier = "linkedin"
+    # name = "LinkedIn"
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    url = "https://www.linkedin.com/in/andrew-w-46814818/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/awurster"
+    weight = 30
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:contact@awurster.com"
+    weight = 40
+
+
+
 
 [deployment]
 
