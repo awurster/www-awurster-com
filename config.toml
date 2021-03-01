@@ -1,7 +1,7 @@
 baseURL = "http://awurster.com/"
 languageCode = "en-us"
 title = "awurster[.]com"
-theme = "hallo"
+theme = "pulp"
 
 [Author]
     name = "Andrew"
